@@ -1,12 +1,12 @@
 package com.example.methods;
 
 public class NoargWitherturn {
-    public static String m1(){
-        return "with Return and no arguments";
+    public static String v1(){
+        return "nikhil";
     }
     public static void main(String[] args) {
-        String str=NoargWitherturn.m1();
-        System.out.println(str);
+        String i=NoargWitherturn.v1();
+        System.out.println(i);
 
     }
 }

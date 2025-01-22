@@ -75,8 +75,5 @@ public class Exp2 {
         System.out.println(str10);;
         System.out.println(str11);
 
-
-
-
     }
 }

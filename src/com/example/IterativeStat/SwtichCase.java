@@ -11,7 +11,7 @@ public class SwtichCase {
         if(ver>9999 && ver<1000){
             System.out.println("Incorrect  pin");
         }else{
-            switch (pin){
+            switch (ver){
                 case 4869:
                     System.out.println("Enter Amout to with draw");
                     break;

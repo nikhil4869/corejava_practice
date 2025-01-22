@@ -6,7 +6,7 @@ public class Exp1 {
         String str=new String();
         str ="name";
         //literal string--->creating using string key word
-        String str1="nikhil";
+        String str1="nikhil";//1st method
         String str2="nikhil";
         String str3=new String();
         str3="name";

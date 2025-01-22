@@ -1,5 +1,5 @@
 package com.example.HomeWork;
-
+//to print all starting letters capital
 public class Exp9 {
     public static void main(String[] args) {
         String str="nikhil is going hyderabad";
