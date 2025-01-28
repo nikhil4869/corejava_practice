@@ -7,8 +7,5 @@ public class Company {
         Accountant accountant=new Accountant(6800,"Fanta",50000d);
         System.out.println();
         Engineer engineer=new Engineer(7376,"Nikhitha",60000d);
-
-
-
     }
 }

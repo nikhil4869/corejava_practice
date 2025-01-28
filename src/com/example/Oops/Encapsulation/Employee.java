@@ -6,7 +6,7 @@ public class Employee {
     private double salary;
 
     public Employee(int id, String empname, double salary) {
-        Id = id;
+        this.Id = id;
         this.empname = empname;
         this.salary = salary;
     }
