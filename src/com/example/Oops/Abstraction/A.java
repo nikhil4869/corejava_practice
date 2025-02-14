@@ -21,6 +21,9 @@ class B extends C{
         System.out.println("Method m2 ........");
 
     }
+    void m4(){
+        System.out.println("Method m4 .......");
+    }
 }
 public class A {
     public static void main(String[] args) {
@@ -28,12 +31,14 @@ public class A {
         ref.m1();
         ref.m2();
         ref.m3();
+        //ref.m4()----->cannot be loaded because it is declared in B because used class C and object of B.
         System.out.println();
         //the other way to call methods
         B ref1=new B();
         ref1.m1();
         ref1.m2();
         ref1.m3();
+        ref1.m4();
 
     }
 }
