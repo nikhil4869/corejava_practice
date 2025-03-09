@@ -9,8 +9,9 @@ public class Exp9 {
             String sub="";
             for (int i=0;i<=s.length()-1;i++){
                 if(i==0){
-                    String sub1=sub+s.charAt(i);
-                    sub=sub1.toUpperCase();
+                    String sub2="";
+                    String sub1=sub2+s.charAt(i);
+                    sub+=sub1.toUpperCase();
                 }else{
                     sub+=s.charAt(i);
                 }

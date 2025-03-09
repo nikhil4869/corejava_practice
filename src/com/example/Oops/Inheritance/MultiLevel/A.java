@@ -16,7 +16,7 @@ class B extends A {
         this.b=b;
     }
     public int addb() {
-        return add() +b;
+        return (add() +b);
     }
 }
 class C extends B {
@@ -26,7 +26,7 @@ class C extends B {
         this.c=c;
     }
     public int addc() {
-        return addb() +c;
+        return (addb() +c);
     }
 
 }

@@ -15,10 +15,11 @@ public class Exp1 {
         set.add(4756);
         Iterator<Integer> spam=set.iterator();
         while (spam.hasNext()){
-            if(spam.next()==450){
+            int num=spam.next();
+            if(num==450){
                 spam.remove();
             }
-            System.out.println(spam.next());
+            System.out.println(num);
         }
         System.out.println(set);
         System.out.println();

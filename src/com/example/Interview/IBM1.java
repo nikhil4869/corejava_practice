@@ -2,7 +2,7 @@ package com.example.Interview;
 
 import java.util.Scanner;
 
-public class IBM {
+public class IBM1 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter Height of cylinder");
@@ -22,8 +22,8 @@ public class IBM {
         if (radius<=0 || coinRadius>radius || height<=0 || coinRadius<=0){
             System.out.println("data is invalid");
         }else {
-            double c1=Math.floor((2*Math.PI*radius)/(2*coinRadius));
-            double c2=Math.floor((height)/(2*coinRadius));
+            double c1=Math.floor((length)/(2*coinRadius));//Number of coins in length.
+            double c2=Math.floor((height)/(2*coinRadius));//Number of coins in width.
             System.out.println("Total coins that can fit in rectangle are :"+(int)(c1*c2));
         }
     }

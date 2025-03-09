@@ -6,8 +6,7 @@ import java.util.Scanner;
 
 public class Exp14 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String str=sc.nextLine();
+        String str="JavaProgramming";
         System.out.println("String is:"+str);
         String str1=str.replace(" ","");
         char[] ch=str1.toCharArray();
@@ -21,7 +20,7 @@ public class Exp14 {
         System.out.println();
 
         Map<String,Integer> map1=new HashMap<>();
-        String str2=sc.nextLine();
+        String str2="Nikhil is going to hyderabad and he is going with his friends";
         String[] split=str2.split(" ");
         for(String res1:split){
             int def1=map1.getOrDefault(res1,0)+1;

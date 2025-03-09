@@ -29,6 +29,7 @@ public class Exp1 {
         try(ObjectOutputStream os=new ObjectOutputStream(new FileOutputStream("D:\\study\\Practice\\serlization.ser"))){
             os.writeObject(employee);
             System.out.println("Serialization is complete");
+            System.out.println();
         } catch (IOException e) {
             e.printStackTrace();
         }

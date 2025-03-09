@@ -1,4 +1,4 @@
-package com.example.Oops.Inheritance;
+package com.example.Oops.Interface;
 interface A{
     int i=100;
     void m1();
