@@ -8,8 +8,8 @@ public class Exp1 {
         //literal string--->creating using string key word
         String str1="nikhil";//1st method
         String str2="nikhil";
-        String str3=new String();
-        str3="name";
+        String str3=new String("name");
+        String str4=new String("name");
         System.out.println(str.equals(str3));
         System.out.println(str1.equals(str2));
         System.out.println();
@@ -18,6 +18,7 @@ public class Exp1 {
         System.out.println();
         //they are same thats the difference between this
         System.out.println(str1==str2);
+        System.out.println(str3==str4);
 
 
     }
