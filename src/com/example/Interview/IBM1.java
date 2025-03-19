@@ -17,7 +17,7 @@ public class IBM1 {
         double coinRadius=sc.nextDouble();
         System.out.println("Radius of coin :"+coinRadius);
 
-        double length=2*Math.PI*radius;
+        double length=2*Math.PI*radius;//To Find Length of rectangle
         System.out.println("length of rectangle :"+length);
         if (radius<=0 || coinRadius>radius || height<=0 || coinRadius<=0){
             System.out.println("data is invalid");
