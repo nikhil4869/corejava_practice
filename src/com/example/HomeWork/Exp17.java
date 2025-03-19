@@ -13,7 +13,7 @@ public class Exp17 {
         map.put(5,20L);
         map.put(6,50d);
         for(Map.Entry<Integer,Object> entry: map.entrySet()){
-            System.out.println(entry.getKey() +"==>"+entry.getValue().getClass().getName());
+            System.out.println(entry.getKey() +"==>"+entry.getValue().getClass().getSimpleName());
         }
 
     }
